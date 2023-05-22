@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <div className='col-3'>
             <LeftAside/>
           </div>
-          <div className='col-6 r_section text-white'>
+          <div className='col-6 r_section text-white mt-3 mb-3'>
             {children}
           </div>
           <div className='col-3 '>
