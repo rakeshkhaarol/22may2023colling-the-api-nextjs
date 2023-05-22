@@ -18,7 +18,7 @@ export default function MyApp({ Component, pageProps }) {
             <div className='col-3'>
                 <LeftAside/>
             </div>
-            <div className='col-6 r_section text-white mt-3 mb-3'>
+            <div className='col-6 bg-dark text-white mt-3 mb-3'>
                 <Component {...pageProps} />
             </div>
             <div className='col-3 '>
